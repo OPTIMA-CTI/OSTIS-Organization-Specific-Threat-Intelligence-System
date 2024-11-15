@@ -41,7 +41,6 @@ The repository is organized as follows:
 - `code/`                            # Source code and scripts for OSTIS components.
   -  Script for training and evaluating BERT model for relevant content identification.
   -  BERT-based model for mapping threat intelligence to specific domains.
-  -  Code for extracting relationships among entities (e.g., attack patterns, malware families).
   -  Named Entity Recognition (NER) model for extracting threat intelligence entities (e.g., malware groups, software tools).
 
 
