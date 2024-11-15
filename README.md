@@ -19,7 +19,7 @@ This repository presents **OSTIS (Organization-Specific Threat Intelligence Syst
   - Internet of Things (IoT)
 - **Explainable AI (XAI)**: Leverages SHapley Additive exPlanations (SHAP) to provide insights into model predictions, enhancing trust and interpretability.
 - **Organization-Specific Threat Intelligence Knowledge Graph (OSTIKG)**: A visual and interactive representation of identified threats, displaying relationships and patterns.
-- 
+  
 ## Citation 
 If you use the OSTIS dataset, models, or any other materials from this repository in your research or application, please cite our paper:
 
@@ -37,12 +37,12 @@ If you use the OSTIS dataset, models, or any other materials from this repositor
 
 The repository is organized as follows:
 
-├── dataset/ # Contains datasets for training the relevant content identification model, domain-specific classification model, and NER. 
-├── code/ # Source code and scripts for OSTIS components. 
-│ ├── # Script for training and evaluating BERT model for relevant content identification. 
-│ ├── # BERT-based model for mapping threat intelligence to specific domains. 
-│ ├── # Code for extracting relationships among entities (e.g., attack patterns, malware families). 
-│ └── # Named Entity Recognition (NER) model for extracting threat intelligence entities (e.g., malware groups, software tools). 
+- `dataset/`                         # Contains datasets for training the relevant content identification model, domain-specific classification model, and NER.
+- `code/`                            # Source code and scripts for OSTIS components.
+  -  Script for training and evaluating BERT model for relevant content identification.
+  -  BERT-based model for mapping threat intelligence to specific domains.
+  -  Code for extracting relationships among entities (e.g., attack patterns, malware families).
+  -  Named Entity Recognition (NER) model for extracting threat intelligence entities (e.g., malware groups, software tools).
 
 
 ## Usage
