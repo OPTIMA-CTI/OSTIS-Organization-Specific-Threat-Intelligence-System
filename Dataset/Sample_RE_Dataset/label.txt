@@ -1,0 +1,16 @@
+attributed-to
+compromises
+controls
+hosts
+located-at
+originates-from
+targets
+uses
+variant-of
+operated-on
+actived-on
+similar-to
+belongs-to
+associated-with
+
+
