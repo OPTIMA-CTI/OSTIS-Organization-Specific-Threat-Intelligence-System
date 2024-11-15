@@ -29,7 +29,7 @@ device
 """Substitute dataset file name with your own"""
 def experiment(seed):
 	start_time = time.time()  # Record the start time
-	df = pd.read_csv(r'Preprocessed_Final_OSTI_Binary.csv').dropna() #Change name here
+	df = pd.read_csv(r'Preprocessed_Sample_Relevant.csv').dropna() #Change name here
 
 	LABELS = len(df['Domain'].value_counts())
 
